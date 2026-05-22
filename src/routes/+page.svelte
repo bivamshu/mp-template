@@ -1,5 +1,6 @@
 <script lang="ts">
     import { Navbar, HeroText, HeroVisuals, CandidateIntro, LatestUpdates } from '$lib/components';
+	import WhoIsSasmit from '$lib/components/WhoIsSasmit.svelte';
   </script>
   
   <main class="relative w-full min-h-screen bg-[#0d2d3a] flex flex-col justify-between overflow-hidden">
@@ -26,3 +27,5 @@
   
   <LatestUpdates />
   <CandidateIntro />
+  <LatestUpdates />
+  <WhoIsSasmit />
