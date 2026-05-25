@@ -243,7 +243,6 @@ The architecture leverages native **Svelte 5 Runes** to ensure reactive componen
 ### Interactive Slider Tracking
 
 The **Carousel Controller** panel uses local state checking variables:
-
 * `let currentIndex = $state(0);`: Binds a reactive integer reference tracking the current focused news position.
 * **Boundary Validation Safety:** `nextSlide` and `prevSlide` intercept action steps, resetting indices back to the zero index boundaries when increment limits are breached to keep the carousel looping.
 
